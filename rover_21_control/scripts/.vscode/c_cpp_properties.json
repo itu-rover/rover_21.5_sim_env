@@ -1,0 +1,55 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cagdas/rover_sim_ws/devel/include/**",
+        "/home/cagdas/rover_21_5_ws/devel/include/**",
+        "/home/cagdas/catkin_ws/devel/include/**",
+        "/home/cagdas/working_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/robot_nav_tools/color_util/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/costmap_queue/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/custom_recovery/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/dlux_global_planner/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/dlux_plugins/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/dwb_critics/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/dwb_local_planner/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/dwb_plugins/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/global_planner_tests/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/locomotor/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/locomove_base/include/**",
+        "/home/cagdas/working_ws/src/my_ws/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/nav_2d_utils/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/nav_core2/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/nav_core_adapter/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid_iterators/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid_pub_sub/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid_server/include/**",
+        "/home/cagdas/catkin_ws/src/opencv_uygulama/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/Simulations/realsense_gazebo_plugin/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/Simulations/robot_drive/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/robot_nav_tools/robot_nav_rviz_plugins/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/robot_navigation/robot_nav_tools/robot_nav_viz_demos/include/**",
+        "/home/cagdas/catkin_ws/src/rotation_conversions/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/control/include/**",
+        "/home/cagdas/catkin_ws/src/state_machine_exp/include/**",
+        "/home/cagdas/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/cagdas/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/cagdas/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/cagdas/rover_sim_ws/src/rover_21.5_sim_env/Simulations/velodyne_gazebo_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
