@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/foxy/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/Simulations/DataspeedInc-velodyne_simulator-9ab05d74438b/velodyne_gazebo_plugins/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/Simulations/rover_21_robotic_arm/robot_drive/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/costmap_queue/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/custom_recovery/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/dlux_global_planner/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/dlux_plugins/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/dwb_critics/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/dwb_local_planner/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/dwb_plugins/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/global_planner_tests/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/locomotor/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/locomove_base/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/nav_2d_utils/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/nav_core2/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/nav_core_adapter/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid_iterators/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid_pub_sub/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/nav_grid_server/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/robot_nav_tools/color_util/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/robot_nav_tools/robot_nav_rviz_plugins/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/robot_navigation/robot_nav_tools/robot_nav_viz_demos/include/**",
+        "/home/kutaygallo/temp_ws/src/rover_21.5_sim_env/rover_21_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

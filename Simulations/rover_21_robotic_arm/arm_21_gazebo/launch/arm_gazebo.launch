@@ -1,7 +1,4 @@
 <launch>
-    <include file="$(find multimaster_launch)/launch/multimaster_gazebo_robot.launch"> <!-- Alt yürür için gerken multimaster node-->
-        <arg name="robot_namespace" value="rover_21_description"/>
-      </include>
 <!-- launch empty world -->
 <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="paused" value="true"/>

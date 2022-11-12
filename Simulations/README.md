@@ -13,9 +13,9 @@ rover_21_robotic_arm ise alt yürürle beraber robot kol içermektedir. burada k
 Simülasyonu çalıştırmak için öncellikle şu eklenili paketlere ihtiyacnız var 
 1. [https://github.com/issaiass/realsense_gazebo_plugin.git](https://github.com/issaiass/realsense_gazebo_plugin.git)
 2. [https://github.com/ros-visualization/interactive_marker_twist_server.git](https://github.com/ros-visualization/interactive_marker_twist_server.git)
-3. `sudo apt install ros-melodic-twist-mux`
-4. `sudo apt install ros-melodic-multimaster-launch`
-5. `sudo apt install ros-melodic-joy`
+3. `sudo apt install ros-noetic-twist-mux`
+4. `sudo apt install ros-noetic-multimaster-launch`
+5. `sudo apt install ros-noetic-joy`
 
 bunlardan birinci paket realsense için ikinci ise alt yürürü joystik olmadan hareket ettirmek için gerekli. Bunlar yüklendikten sonra `catkin_make` yapılır daha sonra `source devel/setup.bash` yapılır.
 

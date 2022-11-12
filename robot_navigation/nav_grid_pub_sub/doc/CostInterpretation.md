@@ -1,6 +1,6 @@
 # Cost Interpretation
 
-If you look at the [documentation for nav_msgs::OccupancyGrid](http://docs.ros.org/melodic/api/nav_msgs/html/msg/OccupancyGrid.html), you'll see the following comment.
+If you look at the [documentation for nav_msgs::OccupancyGrid](http://docs.ros.org/noetic/api/nav_msgs/html/msg/OccupancyGrid.html), you'll see the following comment.
 
 ```
 # Occupancy probabilities are in the range [0,100].  Unknown is -1.

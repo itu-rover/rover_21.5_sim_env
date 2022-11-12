@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kutaygallo/ros2_ws/build/assignment1",
+        "/home/kutaygallo/ros2_ws/install/assignment1/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

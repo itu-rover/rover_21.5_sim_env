@@ -12,7 +12,7 @@ Where the grid exists in the world is defined by six parameters.
  * `frame_id` which is the TF frame the grid is defined relative to.
  * `origin_x` and `origin_y` which define the offset in meters from the root of the TF frame to the minimum corner of the (0, 0) cell.
 
-Together, these components make a [`nav_grid::NavGridInfo`](include/nav_grid/nav_grid_info.h) struct. It evolved from the [`nav_msgs::MapMetaData` message](http://docs.ros.org/melodic/api/nav_msgs/html/msg/MapMetaData.html) but without `map_load_time`, simplified origin geometry and the `frame_id` added. Note: for general efficiency of computation (particularly moving the grid while retaining some of the values) there is no rotation component to the origin. Each grid is locked to the orientation of its TF frame.
+Together, these components make a [`nav_grid::NavGridInfo`](include/nav_grid/nav_grid_info.h) struct. It evolved from the [`nav_msgs::MapMetaData` message](http://docs.ros.org/noetic/api/nav_msgs/html/msg/MapMetaData.html) but without `map_load_time`, simplified origin geometry and the `frame_id` added. Note: for general efficiency of computation (particularly moving the grid while retaining some of the values) there is no rotation component to the origin. Each grid is locked to the orientation of its TF frame.
 
 The default values are `width=0, height=0, resolution=1.0, frame_id="map", origin_x=0.0, origin_y=0.0`.
 
