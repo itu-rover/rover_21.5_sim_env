@@ -2,8 +2,8 @@ pipelines:
   default:
     - parallel:
       - step:
-          name: melodic
-          image: osrf/ros:melodic-desktop-full
+          name: noetic
+          image: osrf/ros:noetic-desktop-full
           script:
             - mkdir -p /tmp/src/repo && mv `pwd`/* /tmp/src/repo && mv /tmp/src `pwd`  # Move everything into the src directory
             - source `find /opt/ros -name setup.bash | sort | head -1` && echo $ROS_DISTRO # Source ROS environment

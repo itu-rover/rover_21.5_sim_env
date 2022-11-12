@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <launch>
-  <include file="$(find multimaster_launch)/launch/multimaster_gazebo_robot.launch">
-    <arg name="robot_namespace" value="rover_21_description_zed"/>
-  </include>
-
   <include
     file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="paused" value="false"/>
