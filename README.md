@@ -12,6 +12,8 @@ For odometry:
 ```
 rosrun rover_21_control rover_sim_odom.py
 ```
+**!!! For use IMU odometry, please install hector_gazebo_plugins package !!!**
+
 
 Localization should be run after odometry, please wait for odometry o work before run this, it sometimes cause problems.
 ```
