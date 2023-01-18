@@ -84,7 +84,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_21_description_velodyne/meshes/left_front_link.STL" />
+          filename="package://rover_21_description_velodyne/meshes/left_front_link_collision.STL" />
       </geometry>
     </collision>
   </link>
@@ -137,7 +137,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_21_description_velodyne/meshes/right_front_link.STL" />
+          filename="package://rover_21_description_velodyne/meshes/right_front_link_collision.STL" />
       </geometry>
     </collision>
   </link>
@@ -190,7 +190,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_21_description_velodyne/meshes/left_rear_link.STL" />
+          filename="package://rover_21_description_velodyne/meshes/left_rear_link_collision.STL" />
       </geometry>
     </collision>
   </link>
@@ -243,7 +243,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_21_description_velodyne/meshes/right_rear_link.STL" />
+          filename="package://rover_21_description_velodyne/meshes/right_rear_link_collision.STL" />
       </geometry>
     </collision>
   </link>
