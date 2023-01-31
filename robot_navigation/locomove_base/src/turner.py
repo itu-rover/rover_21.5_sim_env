@@ -27,7 +27,7 @@ class turner_node:
         #rospy.Subscriber("/move_base_simple/goal", PoseStamped, self.take_goal_sim) # In locomobase it will be Pose2D
         #rospy.Subscriber("/lio_sam/mapping/odometry", Odometry, self.odom_cb)
         self.odom_sub = rospy.Subscriber("/odometry/filtered",Odometry, self.odom_cb)
-        self.publisher = rospy.Publisher("/cmd_hand_drive", Twist, queue_size=10)
+        self.publisher = rospy.Publisher("/handler_vel", Twist, queue_size=10)
         self.stop_pub = rospy.Publisher('/stop_command', Bool, queue_size=1)
         self.stop = rospy.ServiceProxy('/locomove_base/stopper_service', osci)
         
